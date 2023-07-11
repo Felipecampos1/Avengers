@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vingadores</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/Avengers_logo-8.webp" alt="Logo">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu 
+                com ele quando criança, mas não consegue controlá-los">
+                    <img src="./src/imagens/ciclope.png" alt="Personagem ciclope">
+                </li>
+                <li class="personagem" id="iron-man" data-name="Iron Man" data-description="O Homem de Ferro possui uma armadura motorizada que lhe dá voo, força e durabilidade 
+                sobre-humanas e uma variedade de armas.">
+                    <img src="./src/imagens/iron-man.jpeg" alt="Personagem Iron man">
+                </li>
+                <li class="personagem" id="black-bolt" data-name="Black bolt" data-description="Seus poderes são o de emitir gritos devastadores, erguer grande quantidade de peso e voar.">
+                    <img src="./src/imagens/black-bolt.jpeg" alt="Personagem Black bolt">
+                </li>
+                <li class="personagem" id="angel" data-name="Angel" data-description="Seus olhos suportam ventos de altas velocidades e seus pulmões extraordinários permitem a ele a capacidade
+                de respirar normalmente a grandes altitudes.">
+                    <img src="./src/imagens/angel.jpeg" alt="Personagem Angel">
+                </li>
+                <li class="personagem" id="thor" data-name="Thor" data-description="Thor é praticamente imortal, pode voar, é dono de força descomunal e invunerabilidade, pode controlar a 
+                atmosfera e é uma das pouquíssimas pessoas capazes de levantar o martelo Mjolnir, uma vez que só aqueles de coração puro podem fazê-lo.">
+                    <img src="./src/imagens/thor.png" alt="Personagem Thor">
+                </li>
+                <li class="personagem" id="spider-man" data-name="Spider man" data-description="Tem a capacidade de se agarrar às paredes, força sobre-humana, um sexto sentido que o alerta
+                do perigo, equilíbrio perfeito, velocidade e agilidade sobre-humanas.">
+                    <img src="./src/imagens/spider-man.jpeg" alt="Personagem Spider man">   
+                </li>      
+                <li class="personagem" id="Daredevil" data-name="Daredevil" data-description="Sentido Radar, Sentido de Tato aumentado, Sentido de Audição aumentado, Sentido Olfativo aumentado,
+                Paladar apurado, Detetor de mentiras humano, Mestre do combate">
+                    <img src="./src/imagens/Daredevil.jpeg" alt="Personagem Demolidor">
+                </li>
+                <li class="personagem" id="captain-america" data-name="Captain america" data-description="Um dos melhores lutadores do mundo. Com o soro do Supersoldado, é dono de força, agilidade,
+                resistência, reflexos e capacidade de cura superiores aos dos seres humanos normais.">
+                    <img src="./src/imagens/captain-america.jpeg" alt="Personagem Capitão america">
+                </li>
+            </ul>
+        </section>
+
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                    Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando
+                    criança, mas não consegue controlá-los</p>
+            </div>
+        </section>
+
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
